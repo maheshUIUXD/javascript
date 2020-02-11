@@ -1,0 +1,22 @@
+
+body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFA07A;
+}
+#questions-container {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#questions-container h1 {
+    text-align: center;
+    font-weight: 500;
+}
+#questions-container h3 {
+    font-weight: 400;
+}
+#questions-container label {
+    padding-left: 10px; 
+    line-height: 2em;
+    font-weight: lighter;
+}
