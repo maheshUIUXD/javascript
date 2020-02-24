@@ -1,0 +1,38 @@
+/*
+    Author: Mahesh
+*/
+
+#thumbnail-container {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+#thumbnail-container img {
+    width: 100%;
+    height: auto;
+}
+
+#imgDiv {
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+    animation: modalAnim 0.5s ease-in-out;
+}
+
+@keyframes modalAnim {
+    0% {
+        top: -2vw;
+    }
+
+    100% {
+        top: 10vw;
+    }
+}
+
+span {
+    position: absolute;
+    top: 1vw;
+    left: 40vw;
+    color: #000;
+}
