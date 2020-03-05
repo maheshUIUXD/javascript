@@ -480,12 +480,13 @@ console.log("===================================================================
 
 function calcElecBill(units) {
 
-    var amt, firstCharge, secondCharge, thirdCharge, fourthCharge;
+    var amt, firstCharge, secondCharge, thirdCharge, fourthCharge, surcharge;
     amt = 0;
     firstCharge = units * 0.50
     secondCharge = 50 * 0.50;
     thirdCharge = secondCharge + 100 * 0.75;
     fourthCharge = thirdCharge + 100 * 1.20;
+    surcharge = 0;
 
     if (units >= 0 && units <= 50) {
         amt = firstCharge;
@@ -496,6 +497,10 @@ function calcElecBill(units) {
     } else {
         amt = (units - 250) * 1.50 + fourthCharge;
     }
+    
+    surcharge = amt * 0.2;
+    amt += surcharge; 
+    
     console.log('The electricity bill for ' + units + ' units are : ₹' + amt);
 }
 
