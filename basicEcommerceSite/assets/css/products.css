@@ -1,0 +1,192 @@
+
+/*    Author: Mahesh    */
+
+/*  ====== Colors ========
+    ======================
+     
+    dodgerblue 20% - #003366 
+    grey       85% - #d9d9d9
+    black       0% - #000000
+
+*/
+
+
+/*  ======= Global =======
+    ====================== */
+
+html{        
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    height: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+ul,ol {
+    list-style: none;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*  ======== Menu ========
+    ====================== */
+
+#nav-items{    
+    margin-top: -35px;
+    padding-top: 30px;
+    height: 75px;
+    background-color: #003366;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+}
+
+#brand > h1{
+    font-size: 35px;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#nav-list {
+    margin-top: -60px;
+    margin-right: 50px;    
+}
+
+#nav-list li{
+    float: right;
+    margin-right: 20px;
+}
+
+#nav-list > li > a {
+    color: #fff;
+}
+
+#nav-list img {
+    width: 50%;
+    margin-top: -5px;        
+}
+
+#item-count {
+    position: absolute;
+    margin-top: -10px;
+}
+
+#wallpaper {
+    background-color: #003366;
+    height: 800px;
+    width: 100%;
+    color: #fff;    
+}
+
+#wallpaper h1 {
+    position: absolute;
+    top: 5vw;
+    left: 22vw;
+    font-size: 15vw;
+    font-weight: lighter;
+    /* animation: 0.7s ease-out appear; */
+}
+
+@keyframes appear {
+    0% {        
+        top: 15vw;
+        left: 37vw;
+        font-size: 7vw;
+    }
+    100% {
+        top: 5vw;
+        left: 22vw;
+        font-size: 15vw;
+    }
+}
+
+
+/*  ====== Products ======
+    ====================== */
+
+#items {
+    margin-top: 100px;
+}
+
+#items-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item{
+    text-align: center;
+    width: 25%;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
+
+.item > button{
+    font-size: 15px;
+    padding: 7px 12px;
+    cursor: pointer;
+    background-color: #003366;
+    border: #000;
+    color: #d9d9d9;
+    border-radius: 2px;
+    outline: none;
+}
+
+
+/*  ===== Cart Items =====
+    ====================== */
+
+#cart-summary {
+    padding-top: 100px;
+}
+
+#cart-summary h1 {
+    text-align: center;
+    font-weight: 300;
+    color: #003366;
+    margin-bottom: 50px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #d9d9d9;
+    width: 70%;
+    margin-left: 12%;
+    padding: 20px;  
+}
+
+.summary-item-name-image,
+.summary-item-quantity,
+.summary-iem-price  {
+    width: 20%;
+}
+
+.item-quantity {
+    width: 26%;
+    border: 1px solid #003366; 
+    outline: none; 
+}
+
+.del {
+    margin-top: 20px;
+    border: 1px solid #003366;
+    border-radius: 2px;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: #003366;
+}
