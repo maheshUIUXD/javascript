@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <mata name="keywords" content="">
+    <title>Resume Builder</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../resumeBuilder/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../resumeBuilder/assets/css/resumeBuilder.css">
+</head>
+
+<body>
+
+
+    <!-- =================== Header =========================
+         ==================================================== -->
+
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li id="brand"><a>BUILD RESUME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="resume-section">
+        <div id="profile">
+
+        <!-- ============= Personal details =====================
+        ==================================================== -->
+
+            <div id="individual-details" class="resume-div-alignment">
+                <h1 class="heading">Personal Details</h1>
+                <div id="name" class="flex">
+                    <div>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" size="30">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" size="30">
+                    </div>
+                </div>
+
+                <div id="contact" class="flex">
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" size="30">
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" id="phone" size="30">
+                    </div>
+                </div>
+
+                <div id="place" class="flex">
+                    <div>
+                        <label for="address">Address</label><br>
+                        <input type="text" id="address" size="71">
+                    </div>
+                </div>
+
+                <button id="btn-det-1" class="next-btn">NEXT</button>
+            </div>
+
+        <!-- ================ Objective ====================
+        ==================================================== -->
+
+            <div id="objective" class="resume-div-alignment hide">
+                <button id="btn-obj-0" class="prev-btn">PREV</button>
+                <button id="btn-obj-1" class="next-btn">NEXT</button>
+            </div>
+
+        <!-- =================== Skills ====================
+        ==================================================== -->
+
+            <div id="skills" class="resume-div-alignment hide">
+                <button id="btn-skl-0" class="prev-btn">PREV</button>
+                <button id="btn-skl-1" class="next-btn">NEXT</button>
+            </div>
+
+        <!-- ================ Experience ==================
+        ==================================================== -->
+
+            <div id="experience" class="resume-div-alignment hide">
+                <button id="btn-exp-0" class="prev-btn">PREV</button>
+                <h1 class="heading">Experience</h1>
+                <button id="btn-exp-1" class="next-btn">NEXT</button>
+                <button class="add-btn" id="add-experience">Add Experience</button>
+            </div>
+
+
+        <!-- ================= Projects ====================
+        ==================================================== -->
+
+            <div id="projects" class="resume-div-alignment hide">
+                <button id="btn-proj-0" class="prev-btn">PREV</button>
+                <h1 class="heading">Projects</h1>
+                <button id="btn-proj-1" class="next-btn">NEXT</button>
+                <button class="add-btn" id="add-project">Add Project</button>
+            </div>
+
+
+        <!-- ================= Education ===================
+        ==================================================== -->
+
+            <div id="education" class="resume-div-alignment hide">
+                <button id="btn-edu-0" class="prev-btn">PREV</button>
+                <h1 class="heading">Education</h1>
+                <button id="btn-edu-1" class="next-btn">VIEW</button>
+                <button class="add-btn" id="add-degree">Add Degree</button>
+            </div>
+            
+
+        <!-- ================= Education ===================
+        ==================================================== -->
+
+            
+
+
+            <!-- ================= Resume =====================
+        ==================================================== -->
+        
+            <div id="model-resume-2" class="hide">
+                <div id="resume-container-2"></div>                             
+            </div>            
+    </section>
+
+</body>
+<script src="../resumeBuilder/assets/js/global.js"></script>
+
+</html>

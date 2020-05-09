@@ -1,0 +1,276 @@
+/*  */
+
+/* ======= Global =======
+   ====================== */
+
+body {
+    margin: auto; 
+    font-family: 'Roboto', sans-serif;    
+}
+ul, ol {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+textarea{
+    outline: none;
+}
+.hide{
+    display: none;
+}
+
+
+/* ======= Header =======
+   ====================== */
+
+#navbar {
+    background-color: #003366;
+    background-color: #262626;
+    overflow: hidden;
+    padding: 20px;
+    height: 40px;
+}
+#navbar ul {
+    margin-top: 10px;
+}
+#navbar ul li a {
+    color: #fff;
+    font-size: 20px;
+} 
+
+/* ======= Resumes ======
+   ====================== */
+#profile {
+    display: flex;
+}
+
+#resume-section {    
+    position: relative;    
+}   
+.resume-div-alignment {
+    color: #262626;
+    position: absolute;
+    top: 2em;
+    left: 25em;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.flex{
+    display: flex;
+    margin-top: 20px;
+}
+
+#name > div,
+#contact > div,
+#place > div {
+    margin-right: 5em;
+}
+
+#individual-details label {    
+    color: #262626;    
+    font-size: 20px;    
+}
+
+#individual-details input {
+    border: 2px solid #262626;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+}
+.next-btn {    
+    color: #262626;
+    border: 2px solid #262626;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 20em;
+    left: 40em;
+}
+
+/* ======= Objective ======
+   ======================== */
+
+textarea {
+    border: 2px solid #262626;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.prev-btn {    
+    color: #262626;
+    border: 2px solid #262626;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 20em;
+    left: -10em;
+}
+
+/* ======= Experience ======
+   ========================= */
+.exp-comp-role-date{
+    position: relative;
+}
+.exp-comp-role-date,
+.proj-name-desc-link,
+#degree {
+    margin-top: 20px;
+}
+.exp-comp-role-date > div{
+    margin-bottom: 10px;
+}
+
+#experience  input{
+    border: 2px solid #262626;
+    height: 20px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px; 
+}
+#company {
+    margin-right: 20px;
+}
+#role {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#from-date {
+    margin-right: 60px;
+}
+#to-date {
+    margin-left: 20px;
+    margin-right: 17px;
+}
+
+.exp-comp-role-date > h3 {    
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.add-btn {
+    margin-top: 10px;
+    color: #262626;    
+    border: 2px solid #262626;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-del{
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #262626;    
+    border: 2px solid #262626;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    outline: none;   
+}
+/* ======= Projects ========
+   ========================= */
+
+#projects input {
+    border: 2px solid #262626;
+    height: 20px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px; 
+}
+.proj-name-desc-link div:nth-child(1),
+.proj-name-desc-link div:nth-child(2) {
+    margin-bottom: 20px;
+}
+.proj-name-desc-link div input,
+.proj-name-desc-link div textarea {
+    margin-top: 5px;        
+}
+.proj-name-desc-link div textarea {
+    font-size: 15px;
+}
+
+/* ======= Education ========
+   ========================== */
+
+#education input {
+    border: 2px solid #262626;
+    height: 20px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px; 
+}
+#education div > input {
+    margin-top: 5px;
+}
+/*********************************************
+***************** Resume *********************
+***********************************************/
+
+
+/*========= Global ==========*/
+hr {
+    margin-top: -15px;
+    border: 1px solid #d9d9d9;
+}
+.r-div {
+    margin-bottom: 20px;
+}
+.r-ptext {
+    margin-top: 0px;
+} 
+
+/*========= Personal Details ==========*/
+#model-resume-2{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+#r-personal-details  > p{
+    margin-top: 0.5em;
+    font-size: 10vh;
+}
+#r-personal-details ul {
+    margin-top: -9.5em;    
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    font-weight: lighter;
+}
+#r-personal-details ul li i{
+    margin-left: 10px;        
+}
+
+#r-exp-company-role,
+#r-exp-date {
+    list-style-type: none;
+    padding: 0;
+}
+
+#r-exp-date {
+    float: right;
+    margin-top: -50px;
+}
+
+#r-proj-desc,
+#r-proj-link {
+    padding-left: 2em;
+}
+.fa-link {
+    font-size: 12px;
+    margin-right: 5px;
+}
